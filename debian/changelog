@@ -1,0 +1,5 @@
+golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: TODO)
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 17 Mar 2016 16:45:58 +1100

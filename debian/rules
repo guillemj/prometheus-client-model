@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+go/metrics.pb.go:
+	$(MAKE) go/metrics.pb.go
+
+override_dh_auto_configure: go/metrics.pb.go
+	dh_auto_configure
