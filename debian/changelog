@@ -1,7 +1,11 @@
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-2) UNRELEASED; urgency=medium
 
+  [ Paul Tagliamonte ]
   * Team upload.
   * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Martín Ferrari ]
+  * Make dependency on dh-golang versioned (XS-Go-Import-Path support).
 
  -- Paul Tagliamonte <paultag@debian.org>  Wed, 29 Jun 2016 20:42:58 -0400
 

@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
 Uploaders: Dmitry Smirnov <onlyjob@debian.org>
 Build-Depends: debhelper (>= 9),
-               dh-golang,
+               dh-golang (>= 1.10),
                golang-go,
     golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
     protobuf-compiler,
