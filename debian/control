@@ -2,13 +2,14 @@ Source: golang-github-prometheus-client-model
 Section: devel
 Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
-Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+           Martín Ferrari <tincho@debian.org>,
 Build-Depends: debhelper (>= 9),
                dh-golang (>= 1.10),
-               golang-go,
-    golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
-    protobuf-compiler,
-Standards-Version: 3.9.7
+               golang-any,
+               golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
+               protobuf-compiler,
+Standards-Version: 3.9.8
 Homepage: https://github.com/prometheus/client_model
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-prometheus-client-model.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-prometheus-client-model.git
@@ -16,9 +17,8 @@ XS-Go-Import-Path: github.com/prometheus/client_model
 
 Package: golang-github-prometheus-client-model-dev
 Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         golang-go,
-    golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
 Description: data model artifacts for Prometheus
  Golang data model artifacts for Prometheus.
