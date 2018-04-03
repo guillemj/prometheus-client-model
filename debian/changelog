@@ -1,3 +1,9 @@
+golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-3) UNRELEASED; urgency=medium
+
+  * Point Vcs-* urls to salsa.debian.org.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 02 Apr 2018 20:07:26 -0400
+
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-2) unstable; urgency=medium
 
   [ Paul Tagliamonte ]
