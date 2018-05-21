@@ -1,0 +1,9 @@
+Description: Use go generate to avoid depending on special make rules in
+    debian/rules; this allows the CI pipeline in salsa to test the package
+    properly.
+--- /dev/null
++++ b/go/generate.go
+@@ -0,0 +1,3 @@
++package io_prometheus_client
++
++//go:generate protoc --proto_path=.. --go_out=. ../metrics.proto
