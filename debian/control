@@ -5,7 +5,7 @@ Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
 Section: devel
 Testsuite: autopkgtest-pkg-go
 Priority: optional
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-golang (>= 1.10),
                golang-any,
                golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
