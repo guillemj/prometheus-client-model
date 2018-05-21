@@ -1,8 +1,16 @@
-golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-3) UNRELEASED; urgency=medium
+golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) UNRELEASED; urgency=medium
 
+  [ Alexandre Viau ]
   * Point Vcs-* urls to salsa.debian.org.
 
- -- Alexandre Viau <aviau@debian.org>  Mon, 02 Apr 2018 20:07:26 -0400
+  [ Martín Ferrari ]
+  * Stop using pristine-tar, rename branches.
+  * New upstream snapshot; only trivial changes.
+  * Use go generate to avoid depending on special make rules.
+  * Automated cme fixes.
+  * Raise dh compat to 11.
+
+ -- Martín Ferrari <tincho@debian.org>  Mon, 21 May 2018 09:41:50 +0000
 
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-2) unstable; urgency=medium
 
