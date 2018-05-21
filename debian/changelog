@@ -1,4 +1,4 @@
-golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) UNRELEASED; urgency=medium
+golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) unstable; urgency=medium
 
   [ Alexandre Viau ]
   * Point Vcs-* urls to salsa.debian.org.
@@ -10,7 +10,7 @@ golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) UNRELEASED; 
   * Automated cme fixes.
   * Raise dh compat to 11.
 
- -- Martín Ferrari <tincho@debian.org>  Mon, 21 May 2018 09:41:50 +0000
+ -- Martín Ferrari <tincho@debian.org>  Mon, 21 May 2018 14:05:44 +0000
 
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-2) unstable; urgency=medium
 
