@@ -1,0 +1,17 @@
+golang-github-prometheus-client-model (0.2.0-1) unstable; urgency=medium
+
+  DEPRECATION NOTICE
+
+  Starting with v2.0.0, the Prometheus server does not ingest the
+  protobuf-based exposition format anymore. Currently, all but one of the
+  official instrumentation libraries do not expose the protobuf-based
+  exposition format. The Go instrumentation library, however, has been built
+  around the protobuf-based data model. As a byproduct thereof, it is still
+  able to expose the protobuf-based exposition format. The Go instrumentation
+  library is the only remaining repository within the Prometheus GitHub org
+  directly using the prometheus/client_model repository.
+
+  Therefore, formerly existing support for languages other than Go (namely
+  C++, Java, Python, Ruby) has been removed from this package.
+
+ -- Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>  Wed, 17 Jun 2020 12:34:34 +0200
