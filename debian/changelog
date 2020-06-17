@@ -15,28 +15,28 @@ golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) unstable; ur
   [ Alexandre Viau ]
   * Point Vcs-* urls to salsa.debian.org.
 
-  [ Martín Ferrari ]
+  [ Martina Ferrari ]
   * Stop using pristine-tar, rename branches.
   * New upstream snapshot; only trivial changes.
   * Use go generate to avoid depending on special make rules.
   * Automated cme fixes.
   * Raise dh compat to 11.
 
- -- Martín Ferrari <tincho@debian.org>  Mon, 21 May 2018 14:05:44 +0000
+ -- Martina Ferrari <tina@debian.org>  Mon, 21 May 2018 14:05:44 +0000
 
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-2) unstable; urgency=medium
 
   [ Paul Tagliamonte ]
   * Use a secure transport for the Vcs-Git and Vcs-Browser URL
 
-  [ Martín Ferrari ]
+  [ Martina Ferrari ]
   * Add myself to Uploaders.
   * Make dependency on dh-golang versioned (XS-Go-Import-Path support).
   * debian/control: Update Standards-Version (no changes).
   * debian/control: Remove golang-go dependency from -dev package.
   * debian/control: Replace golang-go with golang-any in Build-Depends.
 
- -- Martín Ferrari <tincho@debian.org>  Sun, 23 Oct 2016 23:29:29 +0200
+ -- Martina Ferrari <tina@debian.org>  Sun, 23 Oct 2016 23:29:29 +0200
 
 golang-github-prometheus-client-model (0.0.2+git20150212.12.fa8ad6f-1) unstable; urgency=medium
 
