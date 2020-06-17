@@ -1,5 +1,6 @@
-golang-github-prometheus-client-model (0.2.0-1) UNRELEASED; urgency=medium
+golang-github-prometheus-client-model (0.2.0-1) unstable; urgency=medium
 
+  [ Daniel Swarbrick ]
   * New upstream release.
   * Update Standards-Version to 4.5.0 (no changes).
   * Bump debhelper-compat version to 13.
@@ -8,7 +9,7 @@ golang-github-prometheus-client-model (0.2.0-1) UNRELEASED; urgency=medium
   * Update maintainer email addresses / names.
   * Add myself to uploaders.
 
- -- Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>  Wed, 17 Jun 2020 12:34:34 +0200
+ -- Martina Ferrari <tina@debian.org>  Wed, 17 Jun 2020 14:45:18 +0000
 
 golang-github-prometheus-client-model (0.0.2+git20171117.99fa1f4-1) unstable; urgency=medium
 
