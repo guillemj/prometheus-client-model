@@ -1,2 +1,3 @@
 Bug-Database: https://github.com/prometheus/client_model/issues
 Bug-Submit: https://github.com/prometheus/client_model/issues/new
+Repository: https://github.com/prometheus/client_model.git
