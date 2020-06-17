@@ -1,12 +1,12 @@
 Source: golang-github-prometheus-client-model
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
 Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
-           Martín Ferrari <tincho@debian.org>,
+           Martina Ferrari <tincho@debian.org>,
            Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>,
 Section: devel
 Testsuite: autopkgtest-pkg-go
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                dh-golang (>= 1.10),
                golang-any,
                golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
@@ -23,5 +23,5 @@ Architecture: all
 Depends: golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
          ${misc:Depends},
          ${shlibs:Depends},
-Description: data model artifacts for Prometheus
+Description: Data model artifacts for Prometheus
  Golang data model artifacts for Prometheus.
