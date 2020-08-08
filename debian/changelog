@@ -1,3 +1,9 @@
+golang-github-prometheus-client-model (0.2.0-2) UNRELEASED; urgency=low
+
+  * Set upstream metadata fields: Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 08 Aug 2020 20:25:55 -0000
+
 golang-github-prometheus-client-model (0.2.0-1) unstable; urgency=medium
 
   [ Daniel Swarbrick ]
