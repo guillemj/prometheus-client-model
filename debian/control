@@ -20,6 +20,7 @@ XS-Go-Import-Path: github.com/prometheus/client_model
 
 Package: golang-github-prometheus-client-model-dev
 Architecture: all
+Multi-Arch: foreign
 Depends: golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
          ${misc:Depends},
          ${shlibs:Depends},
