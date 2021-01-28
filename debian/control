@@ -24,5 +24,5 @@ Multi-Arch: foreign
 Depends: golang-goprotobuf-dev | golang-github-golang-protobuf-dev,
          ${misc:Depends},
          ${shlibs:Depends},
-Description: Data model artifacts for Prometheus
+Description: data model artifacts for Prometheus
  Golang data model artifacts for Prometheus.
