@@ -1,8 +1,20 @@
-golang-github-prometheus-client-model (0.2.0-2) UNRELEASED; urgency=low
+golang-github-prometheus-client-model (0.2.0-2) unstable; urgency=medium
 
+  * Team upload.
+
+  [ Debian Janitor ]
   * Set upstream metadata fields: Repository-Browse.
 
- -- Debian Janitor <janitor@jelmer.uk>  Sat, 08 Aug 2020 20:25:55 -0000
+  [ Guillem Jover ]
+  * Move note about license location on Debian systems into a Comment field
+  * Mark -dev package as Multi-Arch:foreign
+  * Switch to Standards-Version 4.5.1 (no changes needed)
+  * Decapitalize synopsis first word
+  * Update gitlab-ci.yml from latest upstream version
+  * Set the build directory to _build
+  * Update gitignore entries
+
+ -- Guillem Jover <gjover@sipwise.com>  Fri, 29 Jan 2021 23:23:41 +0100
 
 golang-github-prometheus-client-model (0.2.0-1) unstable; urgency=medium
 
