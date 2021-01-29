@@ -3,4 +3,4 @@
 export DH_GOLANG_GO_GENERATE := 1
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
